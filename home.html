@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+<style>
+
+
+body { 
+  margin: 0; 
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+/* base styles - mobile first */
+
+
+nav {
+  background: #FAAFBE;
+  min-height: 60px;
+}
+a {
+  text-align: center;
+  display: block;
+  text-decoration:none;
+  color: #fff;
+  padding: 20px 0;
+  text-shadow: 0px 1px 2px rgba(0,0,0,0);
+  font-size: 1.3em;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+a:hover {
+  background-color: rgba(255,255,255,0.2)
+}
+
+/* tablet size */
+@media (min-width : 481px) {
+  a {
+     float: left;
+     width: 25%;
+     font-size: 1em;
+     border: none; /* override */
+   }
+
+html { 
+  background: url(http://41.media.tumblr.com/cd8ec1a6de80e0da39cd99a5868941ae/tumblr_ny1ozodA8n1srmtb1o1_1280.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#logo {
+    /* top:100px; */
+    margin: auto;
+
+
+/* desktop size */
+@media (min-width : 1025px) {
+  a {
+     float: none; /* override */
+     width: auto; /* override */
+     margin-left: 40px;
+     display:inline-block; /* override */
+     font-size: 1em; /* override */
+
+</style>
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Products</a>
+  <a href="#">Contact</a>  
+</nav>
+
+<div id="logo" style="text-align: center"><img src="http://static.tumblr.com/yuln7hy/MlXnivl4e/assc.jpg" width="400px" /></div>
+
+</head>
+</html>
